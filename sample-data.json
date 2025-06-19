@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    {
+      "name": "Java Programming Book",
+      "category": "books",
+      "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c"
+    },
+    {
+      "name": "Wireless Headphones",
+      "category": "electronics",
+      "imageUrl": "https://images.unsplash.com/photo-1585386959984-a415522f8e3b"
+    },
+    {
+      "name": "AI Learning Kit",
+      "category": "education",
+      "imageUrl": "https://images.unsplash.com/photo-1581090700227-1e8e08c6d0f4"
+    }
+  ]
+}

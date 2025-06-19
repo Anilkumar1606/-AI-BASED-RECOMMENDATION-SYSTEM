@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Recommendation System</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 40px 50px;
+      border-radius: 15px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    input, button {
+      padding: 12px;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #00b894;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #019270;
+    }
+
+    #recommendationList {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #f8f8f8;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 14px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 AI-Based Recommendation System</h1>
+    <p>Enter your interest or product category:</p>
+    <input type="text" id="preferenceInput" placeholder="e.g., electronics, books" />
+    <button onclick="getRecommendations()">Get Recommendations</button>
+
+    <h2>Recommended for You</h2>
+    <div id="recommendationList"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
