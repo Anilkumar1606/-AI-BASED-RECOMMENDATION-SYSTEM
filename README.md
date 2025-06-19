@@ -12,7 +12,7 @@ DURATION: 4 WEEKS
 
 MENTOR: NEELA SANTHOSH KUMAR
 
-Title: AI-Based Recommendation System (Frontend Prototype)
+TITLE : AI-Based Recommendation System (Frontend Prototype)
 
 
 ✅ Project Overview
