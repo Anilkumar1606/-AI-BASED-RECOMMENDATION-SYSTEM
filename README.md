@@ -74,7 +74,7 @@ Enter a keyword like "books" or "electronics" and click "Get Recommendations"
 View the results as stylish cards with images
 
 
-#OUTPUT
+OUTPUT
 
 ![Image](https://github.com/user-attachments/assets/f527d497-f528-40d7-b40d-e3ba11bcd2e5)
 ![Image](https://github.com/user-attachments/assets/3768dd80-431b-4b0b-a876-c1fc4eff62d0)
