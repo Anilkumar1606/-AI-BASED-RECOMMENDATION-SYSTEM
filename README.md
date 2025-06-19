@@ -12,7 +12,7 @@ DURATION: 4 WEEKS
 
 MENTOR: NEELA SANTHOSH KUMAR
 
-TITLE : AI-Based Recommendation System (Frontend Prototype)
+TITLE : AI-Based Recommendation System
 
 
 ✅ Project Overview
@@ -42,3 +42,34 @@ Logic	Vanilla JavaScript
 Data	JSON (sample-data)
 Local Server	Live Server (VS Code)
 Image Hosting	Unsplash / Picsum
+
+
+🎨 Features
+
+
+🔍 Search by category (e.g., books, electronics, education)
+
+🖼️ Visual cards: Each recommendation includes a title, category, and image
+
+💻 Responsive layout: Works well on desktop, tablet, and mobile
+
+⚡ Real-time filtering with user input
+
+🌈 Attractive background with clean centered layout
+
+✨ Hover effects and modern UI animations
+
+
+🚀 How to Run the Project
+
+
+Open the folder recommendation-system/ in Visual Studio Code
+
+Install the Live Server extension (if not already)
+
+Right-click index.html → Click “Open with Live Server”
+
+Enter a keyword like "books" or "electronics" and click "Get Recommendations"
+
+View the results as stylish cards with images
+
